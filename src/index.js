@@ -13,10 +13,11 @@ var inputEl = modi.create('input', {
     style: {
         position: 'absolute',
         opacity: 0,
-        width: 1,
-        height: 1,
+        width: 100,
+        height: 20,
         top: -999,
-        left: -999
+        left: -999,
+        fontSize: 12
     }
 }, {
     readOnly: true
